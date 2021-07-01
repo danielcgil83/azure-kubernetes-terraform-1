@@ -24,13 +24,11 @@
 
 - After the last command you'll have an output like the example:
 
-  {
-  "appId": "00000000-0000-0000-0000-000000000000",
-  "displayName": "azure-cli-2017-06-05-10-41-15",
-  "name": "http://azure-cli-2017-06-05-10-41-15",
-  "password": "0000-0000-0000-0000-000000000000",
-  "tenant": "00000000-0000-0000-0000-000000000000"
-  }
+    "appId": "00000000-0000-0000-0000-000000000000"
+    "displayName": "azure-cli-2017-06-05-10-41-15"
+    "name": "http://azure-cli-2017-06-05-10-41-15"
+    "password": "0000-0000-0000-0000-000000000000"
+    "tenant": "00000000-0000-0000-0000-000000000000"
 
     - The client_id variable in this Terraform configuration will be appId value.
     - The client_secret variable in this Terraform configuration will be password value.
