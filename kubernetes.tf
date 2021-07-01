@@ -1,3 +1,9 @@
+/*
+Created by Daniel Gil
+danielcgil83@gmail.com
+July 1, 2021
+*/
+
 resource "azurerm_kubernetes_cluster" "this" {
   name                = "app-kluster-votacao"
   location            = azurerm_resource_group.this.location

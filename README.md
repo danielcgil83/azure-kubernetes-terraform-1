@@ -37,5 +37,5 @@
 
 - To complete the Kubernetes image configuration, this Terraform configuration files run a shell script in local machine.
 
-by Daniel Gil
+by Daniel Gil  
 July 1, 2021
